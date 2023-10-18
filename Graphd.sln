@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graphd", "Graphd\Graphd.csproj", "{025D33E4-4CBA-41A1-8F41-7C2E2E90EE36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graphd.Tests", "Graphd.Tests\Graphd.Tests.csproj", "{D0D296A6-CDBE-4A40-8C0C-EFAFA415723A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{119854FC-F168-4919-823B-1F8AF981FB71}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{D6EBDA0A-B300-41E1-AA8E-DA4A048FEF3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "draft", "draft", "{2D939903-BF17-4BEB-9810-A090A3F2F8C9}"
+	ProjectSection(SolutionItems) = preProject
+		filter.md = filter.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphd.HTTPServer", "Graphd.HTTPServer\Graphd.HTTPServer.csproj", "{B1EF419A-6296-4528-BBB9-ED259BD46A72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{025D33E4-4CBA-41A1-8F41-7C2E2E90EE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025D33E4-4CBA-41A1-8F41-7C2E2E90EE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025D33E4-4CBA-41A1-8F41-7C2E2E90EE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025D33E4-4CBA-41A1-8F41-7C2E2E90EE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D296A6-CDBE-4A40-8C0C-EFAFA415723A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D296A6-CDBE-4A40-8C0C-EFAFA415723A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D296A6-CDBE-4A40-8C0C-EFAFA415723A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D296A6-CDBE-4A40-8C0C-EFAFA415723A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EF419A-6296-4528-BBB9-ED259BD46A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EF419A-6296-4528-BBB9-ED259BD46A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EF419A-6296-4528-BBB9-ED259BD46A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EF419A-6296-4528-BBB9-ED259BD46A72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6EBDA0A-B300-41E1-AA8E-DA4A048FEF3F} = {119854FC-F168-4919-823B-1F8AF981FB71}
+		{2D939903-BF17-4BEB-9810-A090A3F2F8C9} = {D6EBDA0A-B300-41E1-AA8E-DA4A048FEF3F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {146C6F07-7C9E-4CE4-9504-E012B41C6F70}
+	EndGlobalSection
+EndGlobal
